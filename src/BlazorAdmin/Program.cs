@@ -47,3 +47,4 @@ static async Task ClearLocalStorageCache(IServiceCollection services)
     await localStorageService.RemoveItemAsync(typeof(CatalogBrand).Name);
     await localStorageService.RemoveItemAsync(typeof(CatalogType).Name);
 }
+//test
